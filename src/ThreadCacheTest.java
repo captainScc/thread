@@ -14,7 +14,7 @@ public class ThreadCacheTest {
     private ReadWriteLock rwl = new ReentrantReadWriteLock();
 
     public static void main(String[] args) {
-        int b = 1;
+        int b = 3;
 
     }
     public Object get(String key){
