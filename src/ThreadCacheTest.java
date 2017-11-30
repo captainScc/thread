@@ -12,6 +12,7 @@ public class ThreadCacheTest {
     //定义读写锁
     public static void main(String[] args) {
         final int a = 1;
+
     }
 
     private ReadWriteLock rwl = new ReentrantReadWriteLock();
