@@ -10,9 +10,6 @@ public class ThreadCacheTest {
     //缓存仓库
     private Map<String, Object> map = new HashMap<>();
     //定义读写锁
-    public static void main(String[] args) {
-        final int a = 2;
-    }
 
     private ReadWriteLock rwl = new ReentrantReadWriteLock();
 
